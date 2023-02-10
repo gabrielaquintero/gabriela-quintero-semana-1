@@ -1,0 +1,132 @@
+#header{
+    background-color: blue;
+display: flex;
+justify-content: space-between;
+    flex-direction: row
+}
+
+
+
+
+
+.navegacion{
+    
+    height: 50px;
+    background-color: blueviolet;
+    color:aliceblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row
+    
+    
+    
+}
+
+nav{
+    background-image: url("https://www.clarin.com/img/2022/12/26/bCl1vkcsb_1256x620__1.jpg");
+    height: 400px;
+    background-size: cover;
+}
+
+#redes{
+    display: flex;
+    float: right;
+    justify-content:space-evenly;
+    justify-content: center;
+    background-color: rgb(154, 153, 153);
+    height: 500px;
+    width: 300px;
+    
+    
+}
+
+aside {
+    width: 98%;
+    padding-left: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+#foto{
+    width: 250px;
+    height:400px;
+    
+}
+
+#cartelera{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+#cartelera > article {
+
+    width: 700px;
+    height:400px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+#slider{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+#slider > article {
+background-color: burlywood;
+background-size: cover;
+
+    width: 100px;
+    height:100px
+}
+
+figure{
+    height: 180px;
+    width: 140px;
+}
+
+img{width: 100%;
+height: 100%;}
+
+footer{
+    position:static;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 14cm;
+   left:0px;
+   bottom:0px;
+   height:200px;
+   width:100%;
+   background-size: cover;
+   background:#999;
+}
+    
+
+#menu{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    
+}
+#descargar{
+    background-color: blueviolet;
+    margin-left: 7cm;
+    width: 600px;
+    height:200px
+    
+}
+
+
+#logo{
+margin-left: 7cm;
+    
+}
+
+    
